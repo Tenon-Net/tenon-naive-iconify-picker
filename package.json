@@ -4,6 +4,18 @@
   "description": "Offline-first icon picker for Vue 3 + Naive UI, powered by Iconify. Browse bundled icon sets offline, inject your own local SVGs, or use any online Iconify icon.",
   "type": "module",
   "license": "MIT",
+  "author": "HuGuoDong",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DotNet-MoYu/tenon-naive-iconify-picker.git"
+  },
+  "homepage": "https://github.com/DotNet-MoYu/tenon-naive-iconify-picker#readme",
+  "bugs": {
+    "url": "https://github.com/DotNet-MoYu/tenon-naive-iconify-picker/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "vue",
     "vue3",
@@ -32,7 +44,8 @@
     "dev": "vite",
     "build": "vite build",
     "typecheck": "vue-tsc --noEmit",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
     "@iconify/vue": "^4.0.0 || ^5.0.0",
