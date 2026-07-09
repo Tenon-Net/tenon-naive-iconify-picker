@@ -4,8 +4,18 @@
   "description": "Offline-first icon picker for Vue 3 + Naive UI, powered by Iconify. Browse bundled icon sets offline, inject your own local SVGs, or use any online Iconify icon.",
   "type": "module",
   "license": "MIT",
-  "keywords": ["vue", "vue3", "naive-ui", "iconify", "icon-picker", "offline", "icons"],
-  "files": ["dist"],
+  "keywords": [
+    "vue",
+    "vue3",
+    "naive-ui",
+    "iconify",
+    "icon-picker",
+    "offline",
+    "icons"
+  ],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -15,7 +25,9 @@
       "import": "./dist/index.js"
     }
   },
-  "sideEffects": ["**/*.css"],
+  "sideEffects": [
+    "**/*.css"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -31,6 +43,9 @@
     "@iconify-json/lucide": "^1.2.0"
   },
   "devDependencies": {
+    "@iconify-json/ant-design": "^1.2.8",
+    "@iconify-json/ep": "^1.2.4",
+    "@iconify-json/ph": "^1.2.2",
     "@iconify/vue": "^4.3.0",
     "@vitejs/plugin-vue": "^5.2.1",
     "naive-ui": "^2.41.0",
