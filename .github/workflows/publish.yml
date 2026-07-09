@@ -14,15 +14,14 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: "22"
+          # Node 24 自带 npm >= 11.5.1,原生支持 Trusted Publishing 与 provenance。
+          # 不要 `npm install -g npm@latest` —— 全局升级会漏装 sigstore,provenance 生成时报 MODULE_NOT_FOUND。
+          node-version: "24"
           registry-url: "https://registry.npmjs.org"
 
-      # Trusted Publishing (OIDC) 需要 npm >= 11.5.1;Node 22 自带的 npm 版本偏低,先升级
-      - run: npm install -g npm@latest
-
       - run: npm ci
-      - run: npm publish # access=public 已在 package.json 的 publishConfig 里;build 由 prepublishOnly 触发
+      - run: npm publish # access=public 已在 package.json 的 publishConfig;build 由 prepublishOnly 触发
