@@ -6,21 +6,21 @@
 > 可注册任意多个图标库(每个库一个 Tab),**零网络请求**离线浏览,可注入你自己的 SVG,选中结果就是一个字符串 —— 非常适合"给这个菜单选个图标"这类字段。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DotNet-MoYu/tenon-naive-iconify-picker/main/assets/picker-hero.png" alt="IconPicker 触发器" width="720">
+  <img src="https://raw.githubusercontent.com/Tenon-Net/tenon-naive-iconify-picker/main/assets/picker-hero.png" alt="IconPicker 触发器" width="720">
 </p>
 
 <table>
   <tr>
-    <td width="50%"><img src="https://raw.githubusercontent.com/DotNet-MoYu/tenon-naive-iconify-picker/main/assets/picker-grid.png" alt="图标网格 — 亮色"></td>
-    <td width="50%"><img src="https://raw.githubusercontent.com/DotNet-MoYu/tenon-naive-iconify-picker/main/assets/picker-dark.png" alt="图标网格 — 暗色"></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Tenon-Net/tenon-naive-iconify-picker/main/assets/picker-grid.png" alt="图标网格 — 亮色"></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Tenon-Net/tenon-naive-iconify-picker/main/assets/picker-dark.png" alt="图标网格 — 暗色"></td>
   </tr>
   <tr>
     <td align="center"><b>亮色</b> — 每个注册的库是一个 Tab,离线渲染</td>
     <td align="center"><b>暗色</b> — 颜色跟随你的 Naive UI 主题</td>
   </tr>
   <tr>
-    <td width="50%"><img src="https://raw.githubusercontent.com/DotNet-MoYu/tenon-naive-iconify-picker/main/assets/picker-tabs-ant.png" alt="Ant Design 库 Tab"></td>
-    <td width="50%"><img src="https://raw.githubusercontent.com/DotNet-MoYu/tenon-naive-iconify-picker/main/assets/picker-local.png" alt="本地 SVG Tab"></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Tenon-Net/tenon-naive-iconify-picker/main/assets/picker-tabs-ant.png" alt="Ant Design 库 Tab"></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Tenon-Net/tenon-naive-iconify-picker/main/assets/picker-local.png" alt="本地 SVG Tab"></td>
   </tr>
   <tr>
     <td align="center"><b>切换图标库</b> — Lucide、Ant Design、Element Plus、Phosphor…</td>

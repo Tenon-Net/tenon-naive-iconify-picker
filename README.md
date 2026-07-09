@@ -6,21 +6,21 @@
 > Register any number of icon libraries (each becomes a tab), browse them with **zero network calls**, drop in your own SVGs, and store the choice as a single string — perfect for a "pick an icon for this menu" field.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DotNet-MoYu/tenon-naive-iconify-picker/main/assets/picker-hero.png" alt="IconPicker trigger" width="720">
+  <img src="https://raw.githubusercontent.com/Tenon-Net/tenon-naive-iconify-picker/main/assets/picker-hero.png" alt="IconPicker trigger" width="720">
 </p>
 
 <table>
   <tr>
-    <td width="50%"><img src="https://raw.githubusercontent.com/DotNet-MoYu/tenon-naive-iconify-picker/main/assets/picker-grid.png" alt="Icon grid — light"></td>
-    <td width="50%"><img src="https://raw.githubusercontent.com/DotNet-MoYu/tenon-naive-iconify-picker/main/assets/picker-dark.png" alt="Icon grid — dark"></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Tenon-Net/tenon-naive-iconify-picker/main/assets/picker-grid.png" alt="Icon grid — light"></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Tenon-Net/tenon-naive-iconify-picker/main/assets/picker-dark.png" alt="Icon grid — dark"></td>
   </tr>
   <tr>
     <td align="center"><b>Light</b> — each registered library is a tab, rendered offline</td>
     <td align="center"><b>Dark</b> — colors follow your Naive UI theme</td>
   </tr>
   <tr>
-    <td width="50%"><img src="https://raw.githubusercontent.com/DotNet-MoYu/tenon-naive-iconify-picker/main/assets/picker-tabs-ant.png" alt="Ant Design library tab"></td>
-    <td width="50%"><img src="https://raw.githubusercontent.com/DotNet-MoYu/tenon-naive-iconify-picker/main/assets/picker-local.png" alt="Local SVG tab"></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Tenon-Net/tenon-naive-iconify-picker/main/assets/picker-tabs-ant.png" alt="Ant Design library tab"></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Tenon-Net/tenon-naive-iconify-picker/main/assets/picker-local.png" alt="Local SVG tab"></td>
   </tr>
   <tr>
     <td align="center"><b>Switch libraries</b> — Lucide, Ant Design, Element Plus, Phosphor…</td>

@@ -7,11 +7,11 @@
   "author": "HuGuoDong",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DotNet-MoYu/tenon-naive-iconify-picker.git"
+    "url": "git+https://github.com/Tenon-Net/tenon-naive-iconify-picker.git"
   },
-  "homepage": "https://github.com/DotNet-MoYu/tenon-naive-iconify-picker#readme",
+  "homepage": "https://github.com/Tenon-Net/tenon-naive-iconify-picker#readme",
   "bugs": {
-    "url": "https://github.com/DotNet-MoYu/tenon-naive-iconify-picker/issues"
+    "url": "https://github.com/Tenon-Net/tenon-naive-iconify-picker/issues"
   },
   "publishConfig": {
     "access": "public"
