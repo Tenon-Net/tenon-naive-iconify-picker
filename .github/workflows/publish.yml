@@ -1,0 +1,28 @@
+name: Publish to npm
+
+# 打 v* tag 即发布。首次发布必须先用令牌手动发一次(npm 要求包已存在才能配置 Trusted Publisher)。
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  id-token: write # OIDC 令牌 —— Trusted Publishing 的关键,缺了发不了
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
+
+      # Trusted Publishing (OIDC) 需要 npm >= 11.5.1;Node 22 自带的 npm 版本偏低,先升级
+      - run: npm install -g npm@latest
+
+      - run: npm ci
+      - run: npm publish # access=public 已在 package.json 的 publishConfig 里;build 由 prepublishOnly 触发
