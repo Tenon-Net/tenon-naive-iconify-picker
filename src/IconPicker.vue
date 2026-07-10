@@ -170,7 +170,11 @@ function clear() {
           <n-tab :name="ONLINE_TAB" :tab="L.online" />
         </n-tabs>
 
-        <n-scrollbar class="tnip-scroll">
+        <!-- 高度封顶必须走内联 style,不能用 scoped class:NScrollbar 是 inheritAttrs:false 组件,
+             父作用域的 [data-v-*] 不会落到 .n-scrollbar 根,scoped 选择器选不中它(class 能透传、scopeId 不能)。
+             内联 style 经 $attrs 直达根 → 容器 max-height:inherit 即在框内滚动。
+             常规/高屏封顶 340px(约 5 行,防弹窗随大显示器变「非常高」);矮窗(<~680px)收到 50vh 防溢出。 -->
+        <n-scrollbar :style="{ maxHeight: 'min(340px, 50vh)' }">
           <!-- 在线自由输入 -->
           <div v-if="active === ONLINE_TAB" class="tnip-online">
             <n-input v-model:value="onlineInput" :placeholder="L.onlinePlaceholder" @keyup.enter="pickOnline">
@@ -246,9 +250,6 @@ function clear() {
 
 .tnip-search {
   margin-bottom: 8px;
-}
-.tnip-scroll {
-  max-height: 46vh;
 }
 .tnip-state {
   padding: 40px 0;
