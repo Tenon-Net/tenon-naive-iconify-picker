@@ -1,6 +1,6 @@
 # tenon-naive-iconify-picker
 
-[English](./README.md) · **简体中文**
+[English](./README.md) · **简体中文** · [日本語](./README.ja.md)
 
 > 面向 **Vue 3 + Naive UI** 的离线优先图标选择器,基于 [Iconify](https://iconify.design)。
 > 可注册任意多个图标库(每个库一个 Tab),**零网络请求**离线浏览,可注入你自己的 SVG,选中结果就是一个字符串 —— 非常适合"给这个菜单选个图标"这类字段。

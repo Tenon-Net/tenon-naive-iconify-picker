@@ -1,6 +1,6 @@
 # tenon-naive-iconify-picker
 
-**English** · [简体中文](./README.zh-CN.md)
+**English** · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md)
 
 > Offline-first icon picker for **Vue 3 + Naive UI**, powered by [Iconify](https://iconify.design).
 > Register any number of icon libraries (each becomes a tab), browse them with **zero network calls**, drop in your own SVGs, and store the choice as a single string — perfect for a "pick an icon for this menu" field.
