@@ -1,6 +1,6 @@
 {
   "name": "tenon-naive-iconify-picker",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Offline-first icon picker for Vue 3 + Naive UI, powered by Iconify. Browse bundled icon sets offline, inject your own local SVGs, or use any online Iconify icon.",
   "type": "module",
   "license": "MIT",
